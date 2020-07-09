@@ -9,6 +9,8 @@
 2020-7-9 
 - update indicators 
 - finish functions
-- now can run /indicators/RUN_ME.ipynb in Jupyter Notebook
-  - %%bash git clone https://github.com/lhkwok9/jupyter_share_f_indicator
-  - %run jupyter_share_f_indicator/indicators_fn/RUN_ME.ipynb
+- now functions can plot graph in Jupyter Notebook
+  1. in your desired folder, run
+        - %conda install git  # for git extension
+        - !git clone https://github.com/lhkwok9/jupyter_share_f_indicator  # Clone the repository
+  2. go to {your desired path}/jupyter_share_f_indicator/indicators_fn and run RUN_ME.ipynb
